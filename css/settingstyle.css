@@ -1,0 +1,67 @@
+.settings-heading .notificationdiv {
+    font-size: 30px;
+    cursor: pointer;
+    position: absolute;
+    margin-left: 2.5%;
+}
+
+.notificationdiv .notification-count{
+    font-size: 16px;
+    padding: 4px;
+    position: relative;
+    border-radius: 20px;
+    background-color: red;
+}
+
+.settings-heading img {
+    width: 160px;
+    border-radius: 160px;
+    position: absolute;
+    top: 18px;
+    left: 10%;
+}
+
+.privacy{
+    margin-top: 100px;
+}
+
+.appearance{
+    padding-bottom: 90px;
+}
+
+.appearance button:active{
+    background-color: purple;
+}
+
+@media(max-width: 600px){
+    .settings-heading img {
+        width: 130px;
+        border-radius: 120px;
+        top: 25px;
+        left: 13%;
+    }
+}
+
+@media(max-width: 500px){
+    .settings-heading{
+        height: 150px;
+    }
+
+    .settings-heading img{
+        position: relative;
+        top: 10px;
+        left: 0%;
+    }
+
+    .settings-heading .notificationidiv {
+        margin-left: 5%;
+    }
+
+    .privacy{
+        margin-top: 10px;
+    }
+
+    .appearance{
+        padding-bottom: 70px;
+    }
+}
