@@ -385,14 +385,44 @@ button:active{
 
 /*style webpage mode switch*/
 .bankapp-mode{
-    width: 25px;
+    width: 90px;
+    padding: 5px;
     cursor: pointer;
-    color: hsl(300, 99%, 29%);
-    color: #950195;
-    color: rgb(149, 1, 149);
-    font-size: 25px;
     margin: 0 auto;
     margin-top: 25px;
+    color: #950195;
+    color: #808080;
+    color: grey;
+    text-align: right;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: hsl(0, 0%, 18%);
+    background-color: #2e2e2e;
+    background-color: rgb(46, 46, 46);
+}
+
+.bankapp-mode i{
+    padding: 8px;
+    font-size: 25px;
+    border-radius: 30px;
+    background-color: rgb(249, 249, 251);
+    background-color: hsl(220, 27%, 98%);
+    background-color: #f8f9fb;
+}
+
+.bankapp-mode #mode-text{
+    width: 35px;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    position: relative;
+    top: 8px;
+    left: 10px;
+    color: hsl(0, 0%, 76%);
+    color: #c2c2c2;
+    color: rgb(194, 194, 194);
 }
 /*end of mode switch style*/
 
